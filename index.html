@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family:'Times New Roman', Times, serif;
+            background: slategrey;
+        }
+        h1{
+            text-align: center;
+            margin-top: 40px;
+        }
+        button{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgb(204, 203, 203);
+            border-radius: 70px;
+            width: 290px;
+            height: 35px;
+            margin: auto;
+            margin-top: 25px;
+            background: white;
+            padding-left: 60px;
+            font-size: large;
+            padding-top: 5px;
+        }
+        i{
+            font-size: x-large;
+        }
+        h2 {
+   width: 38%; 
+   text-align: center; 
+   border-bottom: 1px solid rgb(204, 203, 203); 
+   line-height: 0.2em;
+   /* margin: 10px 0 20px; */
+   margin: auto;
+   margin-top: 30px;
+  
+} 
+
+h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+input{
+    /* margin: auto; */
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(204, 203, 203);
+    width: 260px;
+    margin-left: 23%;
+    margin-top: 30px;
+} 
+.nest{
+    background:black;
+    color: #fff;
+    margin-left: 22%;
+    padding-left: 125px;
+    /* margin: auto; */
+    
+} 
+.fog{
+    margin-left: 22%;
+    padding-left: 80px;  
+}  
+p{
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-left: 22%;
+} 
+a{
+    text-decoration: none;
+}
+.container{
+    box-shadow: 3px 3px white;
+    background: #fff;
+    border-radius: 5px;
+    margin: auto;
+    padding: 50px;
+    width: 37%;
+    margin-top: 30px;
+
+}
+@media only screen and (max-width: 1300px) {
+    .container{
+        /* box-shadow: none; */
+        width: 220mm;
+        padding: 50px;
+        margin: auto;
+        height: none;
+        /* background: fixed white; */
+        
+    }
+    body{
+        background: white;
+    }
+    h1{
+        padding-top: 50%;
+        
+    }
+    input{
+        margin-left: 35%;
+    }
+    .nest{
+        margin-left: 34%;
+    }
+    .fog{
+        margin-left: 34%;
+    }
+    p{
+        margin-left: 34%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <i class="fa fa-times"></i>
+        <h1></i>Sign in to Twitter</h1>
+        
+        <button><i class="fa fa-google">&nbsp;Sign in with Google</i></button>
+        <button><i class="fa fa-apple">&nbsp;Sign in with Apple</i></button>
+        <h2><span>or</span></h2>
+        <form>
+       <input type="email" FirstName="email" id="username" placeholder="Phone,email,or username"required>
+    </form>
+    <button class="nest">Next</button>
+    <button class="fog">Forget password</button><br><br>
+    <p>Don't have an account?<a href="signup.html">Sign up</a></p>
+    </div>
+</body>
+</html>
